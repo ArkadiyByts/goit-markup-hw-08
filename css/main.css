@@ -485,6 +485,9 @@ img {
     background-repeat: no-repeat;
     padding: 200px 0px;
   }
+  .one__main--text {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
@@ -656,6 +659,7 @@ img {
             flex-direction: row;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    margin-top: 20px;
   }
   .zespol__list__item {
     width: 270px;
@@ -743,6 +747,7 @@ img {
   .klienci_list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    margin-top: 50px;
   }
   .klienci_list_items {
     margin-top: 0px;
@@ -1119,7 +1124,7 @@ footer {
 @media screen and (min-width: 768px) {
   .modal {
     width: 450px;
-    top: 40%;
+    top: 60%;
   }
 }
 
