@@ -1,0 +1,99 @@
+@media screen and (min-width:480px){
+   .lorem__list{
+      flex-direction: column;
+      
+   }
+   .lorem__list__item{
+      text-align: center;
+      margin-top:30px ;
+   }
+   .rectangle{
+      width: 100%;
+      text-align: center;
+   }
+   .lorem__list__item p{
+      text-align: left;
+   }
+   .praca{
+      display: none;
+   }
+}
+@media screen and (min-width:768px) {
+   .lorem__list{
+      flex-direction: row; 
+      flex-wrap: wrap; 
+   }
+   .lorem__list__item{
+      width: 354px;
+      text-align: left;
+   }
+}
+@media screen and (min-width:1200px) {
+   .lorem__list{
+      flex-direction: row; 
+   }
+   .lorem__list__item{
+      width: 270px;
+      text-align: left;
+      margin-top: 0;
+   }
+   .praca{
+      display: block;
+      margin-top: 94px;
+   }
+   .title__h2{
+      margin-bottom: 50px;
+   }
+   .praca__list{
+      margin-top: 50px;
+   }
+}
+
+
+
+/*START section TWO*/
+   /* Start Lorem */
+   .lorem__list__item{
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+   }
+   .lorem__list__item h3{
+      text-transform: uppercase;
+      color: var(--four-color);
+      margin-top: 30px;
+      margin-bottom: 10px;
+   }
+   .lorem__list__item p{
+      color: var(--main-color);
+   }
+   .rectangle{
+      padding: 25px 100px;
+      background-color: var(--seventh-color);
+      border-radius: 4px;
+      display: inline-block;
+   }
+      /* END Lorem */
+      /* START Praca */
+   .praca__list__item {
+      position: relative;
+      background-color: var(--third-color);
+      box-shadow: var(--team-shadow-color) ;
+    }
+    .praca__list__item > .label {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      font-family: 'Roboto';
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16.41px;
+      padding: 27px 90px ;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+      background: rgba(47, 48, 58, 0.8);
+      color: var(--third-color);
+    }
+    /* End section two */

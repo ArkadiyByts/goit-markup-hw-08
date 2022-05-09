@@ -1,0 +1,80 @@
+@media screen and (min-width:480px) {
+   .one{
+      background-color:var(--footer-bg_color);
+   background-image:linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/Img_one_m_1x.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 118px 0px;
+   }
+   .one__main{
+      justify-content: center;
+      flex-direction: column;   
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 162%;
+      letter-spacing: 0.06em;
+      text-align: center;
+      color: var(--third-color);
+   }
+   .one__main--text{
+         margin-bottom: 28px;
+      }
+      @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(../images/Img_one_m_2x.jpg);
+  }
+}
+}
+@media screen and (min-width:768px) {
+   .one{
+      background-color:var(--footer-bg_color);
+   background-image:linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/Img_one_t_1x.jpg);
+   }
+   .one__main{
+      padding-left: 100px;
+      padding-right: 100px;
+   }
+   @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(../images/Img_one_t_2x.jpg);
+  }
+}
+
+}
+@media screen and (min-width:1200px) {
+   .one{
+      background-color:var(--footer-bg_color);
+      background-image:linear-gradient(
+         rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4)),
+       url(../images/Img_one.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 200px 0px;
+   }
+   @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(../images/Img_one_2x.jpg);
+  }
+}
+}
+//resolution
+
