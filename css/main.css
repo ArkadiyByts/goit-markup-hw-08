@@ -729,7 +729,7 @@ img {
     margin-top: 30px;
   }
   .nasi__klienci__link {
-    width: 210px;
+    width: 110px;
   }
 }
 
@@ -793,7 +793,7 @@ img {
 }
 
 /* finish section four */
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -984,7 +984,7 @@ footer {
   border-color: var(--secondary-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .projects__item {
     width: 100%;
   }
