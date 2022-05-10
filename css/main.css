@@ -88,7 +88,7 @@ img {
   padding: 0 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .container {
     max-width: 480px;
     padding: 0 15px;
@@ -190,7 +190,13 @@ img {
   margin: 0;
 }
 
-@media screen and (min-width: 480px) {
+@media (max-width: 480px) {
+  .header {
+    padding: 5px 0;
+  }
+}
+
+@media screen and (max-width: 480px), (min-width: 480px) {
   .nav {
     display: none;
   }
@@ -423,7 +429,7 @@ img {
   line-height: 31px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .one {
     background-color: var(--footer-bg_color);
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img_one_m_1x.jpg);
@@ -452,7 +458,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 480px) and (min-resolution: 192dpi), (min-width: 480px) and (min-resolution: 192dpi), screen and (max-width: 480px) and (min-resolution: 2dppx), (min-width: 480px) and (min-resolution: 2dppx) {
   .box {
     background-image: url(../images/Img_one_m_2x.jpg);
   }
@@ -496,7 +502,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .lorem__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -611,7 +617,7 @@ img {
 }
 
 /* End section two */
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .zespol__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -714,7 +720,7 @@ img {
 }
 
 /* finish sectiopn three */
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .klienci_list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1106,7 +1112,7 @@ footer {
   color: var(--third-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .modal {
     width: 450px;
     top: 50%;
