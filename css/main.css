@@ -202,12 +202,6 @@ img {
   .header {
     padding: 5px 0;
   }
-  .mobile-menu__container {
-    position: relative;
-    min-height: 200px;
-    padding-top: 48px;
-    padding-left: 30px;
-  }
   .mobile__social {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -440,6 +434,13 @@ img {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+}
+
+.mobile-menu__container {
+  position: relative;
+  min-height: 200px;
+  padding-top: 48px;
+  padding-left: 30px;
 }
 
 .logo {
