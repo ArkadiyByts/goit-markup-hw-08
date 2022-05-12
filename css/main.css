@@ -1017,7 +1017,7 @@ footer {
   border-color: var(--secondary-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px), (min-width: 480px) {
   .projects__item {
     width: 100%;
   }
