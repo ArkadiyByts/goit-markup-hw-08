@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px), (min-width:480px){
+@media screen and (max-width: 480px){
    .klienci_list{
       flex-wrap: wrap;
    }
@@ -7,6 +7,18 @@
    }
    .nasi__klienci__link{
       width: 110px;
+      
+   }
+}
+@media screen and (min-width:480px){
+   .klienci_list{
+      flex-wrap: wrap;
+   }
+   .klienci_list_items{
+      margin-top: 30px;
+   }
+   .nasi__klienci__link{
+      width: 210px;
       
    }
 }
