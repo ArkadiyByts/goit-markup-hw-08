@@ -14,7 +14,7 @@
    .lorem__list__item p{
       text-align: left;
    }
-   .praca{
+   .work{
       display: none;
    }
 }
@@ -37,14 +37,14 @@
       text-align: left;
       margin-top: 0;
    }
-   .praca{
+   .work{
       display: block;
       margin-top: 94px;
    }
    .title__h2{
       margin-bottom: 50px;
    }
-   .praca__list{
+   .work__list{
       margin-top: 50px;
    }
 }
@@ -75,12 +75,12 @@
    }
       /* END Lorem */
       /* START Praca */
-   .praca__list__item {
+   .work__list__item {
       position: relative;
       background-color: var(--third-color);
       box-shadow: var(--team-shadow-color) ;
     }
-    .praca__list__item > .label {
+    .work__list__item > .label {
       position: absolute;
       width: 100%;
       text-align: center;

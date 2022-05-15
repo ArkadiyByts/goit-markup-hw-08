@@ -1,13 +1,13 @@
 @media screen and (max-width: 480px), (min-width:480px){
-   .zespol__list{
+   .team__list{
       flex-direction: column;
    }
-   .zespol__list__item{
+   .team__list__item{
       width: 100%;
       font-size: 16px;
       margin-top: 30px;
    }
-   .zespol__link__list{
+   .team__link__list{
       justify-content: center;
       margin-bottom: 30px;
    }
@@ -16,22 +16,22 @@
    }
 }
 @media screen and (min-width:768px) {
-   .zespol__list{
+   .team__list{
       flex-direction: row;
       flex-wrap: wrap;
    }
-   .zespol__list__item{
+   .team__list__item{
       width: 354px;
    }
 }
 @media screen and (min-width:1200px) {
-   .zespol__list{
+   .team__list{
       justify-content: space-between;
       flex-direction: row;
       flex-wrap: nowrap;
       margin-top: 20px;
    }
-   .zespol__list__item{
+   .team__list__item{
       width: 270px;
    }
 }
@@ -39,7 +39,7 @@
 .three{
    background-color: var(--seventh-color);
 }
-.zespol__list__item{
+.team__list__item{
    //width: 270px;
    background-color: var(--third-color);
    text-align: center;
@@ -48,16 +48,16 @@
    0px 2px 1px rgba(0, 0, 0, 0.2);
    ;
 }
-.zespol__list__item h4 {
+.team__list__item h4 {
    margin-top: 30px;
    color: var(--four-color);
 }
-.zespol__list__item p{
+.team__list__item p{
    margin-top: 10px;
    margin-bottom: 16px;
    color: var(--main-color);
 }
-.social__list__link {
+.team__list__link {
    width: 44px;
    height: 44px;
    background-color: var(--third-color);

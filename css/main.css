@@ -544,7 +544,7 @@ img {
   .lorem__list__item p {
     text-align: left;
   }
-  .praca {
+  .work {
     display: none;
   }
 }
@@ -576,14 +576,14 @@ img {
     text-align: left;
     margin-top: 0;
   }
-  .praca {
+  .work {
     display: block;
     margin-top: 94px;
   }
   .title__h2 {
     margin-bottom: 50px;
   }
-  .praca__list {
+  .work__list {
     margin-top: 50px;
   }
 }
@@ -616,14 +616,14 @@ img {
 
 /* END Lorem */
 /* START Praca */
-.praca__list__item {
+.work__list__item {
   position: relative;
   background-color: var(--third-color);
   -webkit-box-shadow: var(--team-shadow-color);
           box-shadow: var(--team-shadow-color);
 }
 
-.praca__list__item > .label {
+.work__list__item > .label {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -642,18 +642,18 @@ img {
 
 /* End section two */
 @media screen and (max-width: 480px), (min-width: 480px) {
-  .zespol__list {
+  .team__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .zespol__list__item {
+  .team__list__item {
     width: 100%;
     font-size: 16px;
     margin-top: 30px;
   }
-  .zespol__link__list {
+  .team__link__list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -665,7 +665,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .zespol__list {
+  .team__list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -673,13 +673,13 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .zespol__list__item {
+  .team__list__item {
     width: 354px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .zespol__list {
+  .team__list {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -691,7 +691,7 @@ img {
         flex-wrap: nowrap;
     margin-top: 20px;
   }
-  .zespol__list__item {
+  .team__list__item {
     width: 270px;
   }
 }
@@ -701,25 +701,25 @@ img {
   background-color: var(--seventh-color);
 }
 
-.zespol__list__item {
+.team__list__item {
   background-color: var(--third-color);
   text-align: center;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.zespol__list__item h4 {
+.team__list__item h4 {
   margin-top: 30px;
   color: var(--four-color);
 }
 
-.zespol__list__item p {
+.team__list__item p {
   margin-top: 10px;
   margin-bottom: 16px;
   color: var(--main-color);
 }
 
-.social__list__link {
+.team__list__link {
   width: 44px;
   height: 44px;
   background-color: var(--third-color);
@@ -745,40 +745,40 @@ img {
 
 /* finish sectiopn three */
 @media screen and (max-width: 480px) {
-  .klienci_list {
+  .customers_list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .klienci_list_items {
+  .customers_list_items {
     margin-top: 30px;
   }
-  .nasi__klienci__link {
+  .our__customers__link {
     width: 110px;
   }
 }
 
 @media screen and (min-width: 480px) {
-  .klienci_list {
+  .customers_list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .klienci_list_items {
+  .customers_list_items {
     margin-top: 30px;
   }
-  .nasi__klienci__link {
+  .our__customers__link {
     width: 210px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .klienci_list {
+  .customers_list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .klienci_list_items {
+  .customers_list_items {
     margin-top: 30px;
   }
-  .nasi__klienci__link {
+  .our__customers__link {
     width: 226px;
   }
   .title__h2 {
@@ -787,21 +787,21 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .klienci_list {
+  .customers_list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     margin-top: 50px;
   }
-  .klienci_list_items {
+  .customers_list_items {
     margin-top: 0px;
   }
-  .nasi__klienci__link {
+  .our__customers__link {
     width: 170px;
   }
 }
 
 /*START SECTION FOUR*/
-.nasi__klienci__link {
+.our__customers__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,12 +819,12 @@ img {
   fill: var(--social-icon);
 }
 
-.klienci__img {
+.customers__img {
   width: 106px;
   height: 60px;
 }
 
-.nasi__klienci__link:hover {
+.our__customers__link:hover {
   fill: var(--secondary-color);
   border-color: var(--secondary-color);
 }
@@ -1341,4 +1341,3 @@ footer {
 .modal-form-policy-text > a {
   color: var(--secondary-color);
 }
-/*# sourceMappingURL=main.css.map */
