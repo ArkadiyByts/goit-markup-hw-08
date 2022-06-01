@@ -203,16 +203,12 @@ img {
     padding: 5px 0;
   }
   .mobile__social {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .mobile__social-item {
-    margin-top: 20px;
-  }
-  .mobile__contacts {
-    margin-top: 150px;
+    margin-right: 10px;
   }
   .mobile-menu__container {
     padding-left: 30px;
@@ -250,9 +246,6 @@ img {
   }
   .mobile__social-item:first-child {
     margin-left: 0;
-  }
-  .mobile__contacts {
-    margin-top: 300px;
   }
 }
 

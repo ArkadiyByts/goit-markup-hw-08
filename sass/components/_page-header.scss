@@ -1,16 +1,23 @@
+
 @media (max-width: 480px) {
    .header{
       padding: 5px 0;
    }
    
     .mobile__social{
-       flex-direction: column;
+      //flex-direction: column;
+      justify-content: space-between;
     }
+    
+    
+
     .mobile__social-item{
-       margin-top: 20px;
+      //margin-top: 20px;
+      margin-right: 10px;
+
     }
     .mobile__contacts{
-      margin-top: 150px;
+      //margin-top: 150px;
    }
    .mobile-menu__container {
       padding-left: 30px;
@@ -23,6 +30,7 @@
    .contacts{
       display: none;
    }
+   
    .header{
       padding: 15px 0;
       justify-content: space-between;
@@ -37,7 +45,7 @@
       border-right: 1px solid var(--header-color);
     }
     .mobile__social-item{
-       margin-left: 10px;
+      margin-left: 10px;
     }
     .mobile__social-item:last-child{
       border-right: none;
@@ -45,9 +53,8 @@
     .mobile__social-item:first-child{
        margin-left: 0;
     }
-    .mobile__contacts{
-      margin-top: 300px;
-   }
+   
+   
 }
 @media screen and (min-width:768px) {
    .nav{
