@@ -1,1 +1,1 @@
-https://arkadiybyts.github.io/goit-markup-hw-08/index.html
+https://arkadiybyts.github.io/goit-markup-hw-08/
